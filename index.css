@@ -345,6 +345,8 @@ body:not(.user-is-tabbing) a:focus {
 .nav__items {
     display: flex;
     list-style: none;
+    justify-content: flex-end;  
+    /* margin-right: 5%; */
  
     
 }
@@ -362,6 +364,7 @@ body:not(.user-is-tabbing) a:focus {
 @media(max-width: 400px) {
     .nav__item:not(:last-child) {
         margin-right: var(--gutter-normal);
+
     }
 }
 

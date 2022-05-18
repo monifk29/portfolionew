@@ -38,15 +38,15 @@
   <!-- ***** Header ***** -->
 
   <header class="header" role="banner" id="top">
-    <div class="
-    
+    <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-           <li class="nav__item"><a href="#clients" class="nav__link">Skills</a></li> 
           <li class="nav__item">
             <a href="#about" class="nav__link">About</a>
           </li>
+          <li class="nav__item"><a href="#clients" class="nav__link">Skills</a></li> 
+
+          <li class="nav__item"><a href="#work" class="nav__link">Project</a></li>
           <li class="nav__item">
             <a href="#contact" class="nav__link">Contact</a>
           </li>
@@ -67,6 +67,48 @@
   </header>
 
   <main role="main">
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              I am a MERN - Stack developer with experience in projects and websites . I hold a specialization in JavaScript and I'm comfortable in working with React. I also hold a degree of bachelor's in civil engineering. I've worked as a Sub Er. for a few months but later wanted to explore the field of coding. Hence I joined Masai School. Apart from this I like to socialize with my friends. 
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="https://drive.google.com/file/d/1Lp45xXkDmPQ7y3BiH2_ISZkiL0sCKUh8/view?usp=sharing" target="_blank" class="btn">My Resume</a>
+          </div>
+    
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/my pic.png" alt="hi" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- ***** Clients ***** -->
+
+     <section class="client" id="clients">
+      <div class="row">
+        <h2>Skills</h2>
+        <div class="client__logos">
+          <!-- Add logos of the clients or companies you'have worked with. --> 
+           <img src="https://imgs.search.brave.com/hjkJBYP7w3bryh3xXXjVPw2zUn47_d5T_OfcUCopUt0/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5u/c19VUDlZTGtkLU53/LXV1RWItZmhnSGFI/YSZwaWQ9QXBp" class="client__logo" alt="HTML" />
+          <img src="https://imgs.search.brave.com/AzgilO8sNeMA3z1e1xAWwtJBi6PPtukOf0BGDiHmpjo/rs:fit:179:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5h/ZmM2c1huMEN6bTRS/a01CMldSUE9nQUFB/QSZwaWQ9QXBp" class="client__logo" alt="CSS 3" />
+          <img src="https://imgs.search.brave.com/QjJINyYimqkRDz2NqFTfGVg1ABDOMwAnY-ZV8Dsohzo/rs:fit:532:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Q/a3NzMVpmeW85eDU5/YndvZHVyemF3SGFH/bSZwaWQ9QXBp" class="client__logo" alt="React.js" />
+          <img src="https://imgs.search.brave.com/lmTwmGVIKVVWP6kVf_P6GQOD5pB5b2n3K03Y0nzuZW8/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5R/WkVWSmZRWmtxcGxB/Y2FxTEJqY093SGFI/YSZwaWQ9QXBp" class="client__logo" alt="node.js" />
+          <img src="https://imgs.search.brave.com/LCryoBXRdAMvDAzOLyUOrINPZj68oU9QH5pW4Qb2Xik/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC40/bU1kR0hvMUNETkUt/a05RTElYQzJ3SGFI/YSZwaWQ9QXBp" class="client__logo" alt="Express.js" />
+          <img src="https://imgs.search.brave.com/09iKbJAwNFGuiJAILJaetLxLKCgAhcNm4TzFb_Rj3dY/rs:fit:409:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5s/XzVSclh2ZkVBWGlo/Wkp3MHludmNRSGFJ/ayZwaWQ9QXBp" class="client__logo" alt="MongoDB" />
+          <img src="https://imgs.search.brave.com/gxY7ztu-eT_AMAVdBCMP6qICaNENQOqXSUNHlGv-L_U/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5u/TXpsQWw5OUJTdnlJ/cGlPMnU5WVhBSGFI/YSZwaWQ9QXBp" class="client__logo" alt="Redux" />
+
+        </div>
+      </div>
+    </section> 
 
     <!-- ***** Work ***** -->
 
@@ -146,10 +188,10 @@
               </ul>
 
               <div class="work__links">
-                <a href="https://tata-1mg.netlify.app/" class="link__text">
+                <a href="https://tata-1mg.netlify.app/" target="_blank" class="link__text">
                   Visit Site <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/monifk29/tata-1Mg-clone">
+                <a href="https://github.com/monifk29/tata-1Mg-clone" target="_blank">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
@@ -162,47 +204,9 @@
       </div>
     </section> 
 
-    <!-- ***** Clients ***** -->
+   
 
-     <section class="client" id="clients">
-      <div class="row">
-        <h2>Skills</h2>
-        <div class="client__logos">
-          <!-- Add logos of the clients or companies you'have worked with. --> 
-           <img src="https://imgs.search.brave.com/hjkJBYP7w3bryh3xXXjVPw2zUn47_d5T_OfcUCopUt0/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5u/c19VUDlZTGtkLU53/LXV1RWItZmhnSGFI/YSZwaWQ9QXBp" class="client__logo" alt="HTML" />
-          <img src="https://imgs.search.brave.com/AzgilO8sNeMA3z1e1xAWwtJBi6PPtukOf0BGDiHmpjo/rs:fit:179:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5h/ZmM2c1huMEN6bTRS/a01CMldSUE9nQUFB/QSZwaWQ9QXBp" class="client__logo" alt="CSS 3" />
-          <img src="https://imgs.search.brave.com/QjJINyYimqkRDz2NqFTfGVg1ABDOMwAnY-ZV8Dsohzo/rs:fit:532:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Q/a3NzMVpmeW85eDU5/YndvZHVyemF3SGFH/bSZwaWQ9QXBp" class="client__logo" alt="React.js" />
-          <img src="https://imgs.search.brave.com/lmTwmGVIKVVWP6kVf_P6GQOD5pB5b2n3K03Y0nzuZW8/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5R/WkVWSmZRWmtxcGxB/Y2FxTEJqY093SGFI/YSZwaWQ9QXBp" class="client__logo" alt="node.js" />
-          <img src="https://imgs.search.brave.com/LCryoBXRdAMvDAzOLyUOrINPZj68oU9QH5pW4Qb2Xik/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC40/bU1kR0hvMUNETkUt/a05RTElYQzJ3SGFI/YSZwaWQ9QXBp" class="client__logo" alt="Express.js" />
-          <img src="https://imgs.search.brave.com/09iKbJAwNFGuiJAILJaetLxLKCgAhcNm4TzFb_Rj3dY/rs:fit:409:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5s/XzVSclh2ZkVBWGlo/Wkp3MHludmNRSGFJ/ayZwaWQ9QXBp" class="client__logo" alt="MongoDB" />
-          <img src="https://imgs.search.brave.com/gxY7ztu-eT_AMAVdBCMP6qICaNENQOqXSUNHlGv-L_U/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5u/TXpsQWw5OUJTdnlJ/cGlPMnU5WVhBSGFI/YSZwaWQ9QXBp" class="client__logo" alt="Redux" />
 
-        </div>
-      </div>
-    </section> 
-
-    <!-- ***** About ***** -->
-
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p>
-              I am a MERN - Stack developer with experience in projects and websites . I hold a specialization in JavaScript and I'm comfortable in working with React. I also hold a degree of bachelor's in civil engineering. I've worked as a Sub Er. for a few months but later wanted to explore the field of coding. Hence I joined Masai School. Apart from this I like to socialize with my friends. 
-            </p>
-            <!-- Provide a link to your resume -->
-            <a href="https://drive.google.com/file/d/1aBD9iRKazHD99y0f5MlcJBTiQHX39OO9/view?usp=sharing" class="btn">My Resume</a>
-          </div>
-
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/me bw_edited.jpg" alt="hi" />
-          </div>
-        </div>
-      </div>
-    </section>
   </main>
 
   <!-- ***** Contact ***** -->
@@ -217,10 +221,12 @@
           consultation? or want to ask questions? or have some advice for me
           or just want to say "Hi 👋" in any case feel free to Let me know. I
           will do my best to respond back. 😊 The quickest way to reach out to
-          me is via an email.
+          me is via an email. 
+          <br><span style="text-decoration: underline;">khanmonif0@gmail.com</span>
         </p>
+      
         <!-- Replace the email with yours -->
-        <a href="mailto:khanmonif0@gmail.com" class="btn">khanmonif0@gmail.com</a>
+        <a href="mailto:khanmonif0@gmail.com" target="_blank" class="btn">khanmonif0@gmail.com</a>
       </div>
     </div>
   </section>
@@ -237,17 +243,17 @@
           </a>
         </li> -->
         <li class="footer__social-link-item">
-          <a href="https://github.com/monifk29/" title="Link to Github Profile">
+          <a href="https://github.com/monifk29/" target="_blank" title="Link to Github Profile">
             <img src="./images/github.svg" class="footer__social-image" alt="Github">
           </a>
         </li>
-        <!-- <li class="footer__social-link-item">
-          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
+        <li class="footer__social-link-item">
+          <a href="https://codepen.io/limbo-coder" target="_blank" title="Link to Codepen Profile">
             <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
           </a>
-        </li> -->
+        </li>
         <li class="footer__social-link-item">
-          <a href="https://www.linkedin.com/in/monif-khan-904a02191/">
+          <a href="https://www.linkedin.com/in/monif-khan-904a02191/" target="_blank">
             <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
           </a>
         </li>
